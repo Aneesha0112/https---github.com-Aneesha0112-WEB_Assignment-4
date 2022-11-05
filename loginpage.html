@@ -11,14 +11,15 @@
     <li><a href="loginpage.html">Login</a></li>
     <li><a href="notepage.html">Notes Page</a></li>
   </ul>
-<form action="notepage.html" method="post">
+<form action="notepage.html" method="post" id="loginpage">
         <div class="container">
           <h1> Login Page </h1>
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="uname"><b>Email</b></label>
+          <input type="text" id="user">
 
           <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" id="passwd">
 
 
         </div>
@@ -34,6 +35,8 @@
   <!-- <div> -->
    <!-- </div> -->
 
+   
 
+    <script src="main.js"></script>
 </body>
 </html>

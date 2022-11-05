@@ -12,18 +12,18 @@
     <li><a href="loginpage.html">Login</a></li>
     <li><a href="notepage.html">Notes Page</a></li>
   </ul>
-<form action="loginpage_reg.html" method="post">
+<form id="regpage">
   
         <div class="container">
           <h1> Register Page </h1>
-          <label for="uname"><b>Your name</b></label>
-          <input type="text" placeholder="Enter Name" name="uname" required>
-          <label for="uname"><b>Nick Name</b></label>
-          <input type="text" placeholder="Enter Nick Name" name="uname" required>
+          <label for="uname"><b>First name</b></label>
+          <input type="text" placeholder="Enter First Name" name="uname" required id="firstname">
+          <label for="uname"><b>Last Name</b></label>
+          <input type="text" placeholder="Enter Last Name" name="uname" required id="lastname">
           <label for="uname"><b>Email</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <input type="text" placeholder="Enter Username" name="uname" required id="email">
           <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" placeholder="Enter Password" name="psw" required id="password">
         </div>
 
         <div class="submit">
@@ -35,6 +35,6 @@
     </tr>
   </table>
 
-
+  <script src="main.js"></script>
 </body>
 </html>
